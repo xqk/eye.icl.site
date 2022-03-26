@@ -1,0 +1,80 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2563fc;
+  --ifm-color-primary-dark: #084ffc;
+  --ifm-color-primary-darker: #0348f2;
+  --ifm-color-primary-darkest: #033bc8;
+  --ifm-color-primary-light: #4277fc;
+  --ifm-color-primary-lighter: #5082fd;
+  --ifm-color-primary-lightest: #7ba0fd;
+  --ifm-link-color: #2563fc;
+
+  --ifm-heading-font-weight: 500;
+  --ifm-button-font-weight: 400;
+
+  --ifm-code-font-size: 85%;
+  --ifm-code-padding-horizontal: 4px;
+
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 2;
+  --ifm-font-family-monospace: Source Code Pro, Consolas, Monaco, Menlo, Consolas, monospace;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #7da2fe;
+  --ifm-color-primary-dark: #5787fe;
+  --ifm-color-primary-darker: #457afe;
+  --ifm-color-primary-darkest: #0c51fd;
+  --ifm-color-primary-light: #a3bdfe;
+  --ifm-color-primary-lighter: #b5cafe;
+  --ifm-color-primary-lightest: #eef3ff;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2rem;
+}
+
+.markdown > h2 {
+  --ifm-h2-font-size: 1.5rem;
+}
+
+.markdown > h3 {
+  --ifm-h3-font-size: 1.2rem;
+}
+
+code {
+  white-space: nowrap;
+}
+
+pre > code {
+  white-space: inherit;
+}
+
+.footer {
+  padding-bottom: 0;
+}
+
+.footer__copyright {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 24px 0 12px 0;
+}
