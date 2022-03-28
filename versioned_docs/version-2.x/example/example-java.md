@@ -11,8 +11,6 @@ title: Java项目配置
 以下基于 eye v2.3.4 版本，如果低于 v2.3.4 可以参考 [版本升级文档](/docs/update-version) 进行升级，例子仅作为演示，一般情况下你都需要结合自己的项目情况调整配置。
 :::
 
-![about](https://cdn.icl.site/v2/example-java-1.png)
-
 
 ## 安装 jdk / maven
 如果已安装可跳过该步骤，这里以安装 `jdk-8u251` 和 `maven-3.6.3` 为例，如果你使用 Docker 部署的 `eye`，可参考以下步骤进行安装
