@@ -92,11 +92,6 @@ const config = {
           {to: '/about', label: '关于', position: 'right'},
           {to: '/sponsorship', label: '赞助', position: 'right'},
           {
-            href: 'https://gitee.com/xqk/eye',
-            label: 'Gitee',
-            position: 'right',
-          },
-          {
             href: 'https://github.com/xqk/eye',
             label: 'GitHub',
             position: 'right',
@@ -131,10 +126,6 @@ const config = {
           {
             title: '更多',
             items: [
-              {
-                label: 'Gitee',
-                href: 'https://gitee.com/xqk/eye',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/xqk/eye',
