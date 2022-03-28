@@ -14,7 +14,3 @@ sidebar_position: 2
 - 内置的微信和邮件报警模式需要配置调用凭据，调用凭据的获取方式与微信 Token 相同，获取调用凭据后，将调用凭据配置至系统设置 / 报警服务设置 中的调用凭据中即可。
 - 调用凭据可以是任何一个有效的微信 Token。
 - 由于微信的限制，你必须关注公众号才能收到微信报警信息。
-- [钉钉收不到通知？](/docs/use-problem/#use-dd)
-- eye 服务号
-
-![about](https://cdn.icl.site/img/eye-weixin.jpeg)
