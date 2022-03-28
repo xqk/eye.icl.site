@@ -116,12 +116,7 @@ const config = {
           },
           {
             title: '社区',
-            items: [
-              {
-                label: 'eye 公众号',
-                to: '/about',
-              }
-            ],
+            items: [],
           },
           {
             title: '更多',
