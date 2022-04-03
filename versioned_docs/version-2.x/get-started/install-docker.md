@@ -34,7 +34,7 @@ systemctl start docker
 :::
 
 ```bash
-docker pull registry.aliyuncs.com/xqk/eye
+docker pull xiaqiankun/eye
 ```
 
 ### 3. 启动容器
@@ -51,10 +51,10 @@ docker pull registry.aliyuncs.com/xqk/eye
 ```bash
 # 持久化存储启动命令：
 # /eye 指的是映射本地的磁盘路径，也可以是其他目录，/data是容器内代码和数据初始化存储的路径
-docker run -d --restart=always --name=eye -p 80:80 -v /eye:/data registry.aliyuncs.com/xqk/eye
+docker run -d --restart=always --name=eye -p 80:80 -v /eye:/data xiaqiankun/eye
 
 # 如果你需要在eye内使用docker命令则需要添加额外的参数
-docker run -d --restart=always --name=eye -p 80:80 -v /eye/:/data -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker registry.aliyuncs.com/xqk/eye
+docker run -d --restart=always --name=eye -p 80:80 -v /eye/:/data -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker xiaqiankun/eye
 ```
 
 ### 4. 初始化
