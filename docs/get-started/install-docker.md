@@ -30,7 +30,7 @@ systemctl start docker
 ### 2. 拉取镜像
 
 :::tip 提示
-阿里云的镜像与 [Docker hub](https://hub.docker.com/r/xqk/eye/tags) 同步更新，国内用户建议使用阿里云的镜像。
+阿里云的镜像与 [Docker hub](https://hub.docker.com/r/xiaqiankun/eye/tags) 同步更新，国内用户建议使用阿里云的镜像。
 :::
 
 ```bash

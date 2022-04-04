@@ -16,7 +16,7 @@ title: Java项目配置
 如果已安装可跳过该步骤，这里以安装 `jdk-8u251` 和 `maven-3.6.3` 为例，如果你使用 Docker 部署的 `eye`，可参考以下步骤进行安装
 
 :::caution 注意
-以下仅适用于 `2.3.4` 及以后的镜像（基于 `Centos`）启动的容器（这里的 `2.3.4` 并不是 `eye` 的版本号，请在 [hub.docker.com](https://hub.docker.com/r/xqk/eye/tags) 查询镜像版本）。
+以下仅适用于 `2.3.4` 及以后的镜像（基于 `Centos`）启动的容器（这里的 `2.3.4` 并不是 `eye` 的版本号，请在 [hub.docker.com](https://hub.docker.com/r/xiaqiankun/eye/tags) 查询镜像版本）。
 :::
 
 因 Oracle JDK 下载需要登录账户请自行[下载](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)，这里直接使用下载完成的 `jdk-8u251-linux-x64.tar.gz` 文件。

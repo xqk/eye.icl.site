@@ -14,7 +14,7 @@ title: Node项目配置
 如果已安装可跳过该步骤，这里以目前的最新版 `v12.18.1` 为例，如果你使用 Docker 部署的 `eye`，可参考以下步骤进行安装。
 
 :::caution 注意
-以下仅适用于 `2.3.4` 及以后的镜像（基于 `Centos`）启动的容器（这里的 `2.3.4` 并不是 `eye` 的版本号，请在 [hub.docker.com](https://hub.docker.com/r/xqk/eye/tags) 查询镜像版本）。
+以下仅适用于 `2.3.4` 及以后的镜像（基于 `Centos`）启动的容器（这里的 `2.3.4` 并不是 `eye` 的版本号，请在 [hub.docker.com](https://hub.docker.com/r/xiaqiankun/eye/tags) 查询镜像版本）。
 :::
 
 ```bash
